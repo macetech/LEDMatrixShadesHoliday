@@ -32,6 +32,7 @@ byte currentEffect = 0;
 byte currentBrightness = startbrightness;
 byte runMode = 0;
 boolean eepromOutdated = false;
+uint16_t rand16seed = 3313;
 
 // Data tables stored in flash memory
 #include "messages.h"          // Message strings
